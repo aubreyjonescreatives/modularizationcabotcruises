@@ -1,0 +1,284 @@
+
+ header, nav, main, .container-cards, .copyright, .footerSocialIcons { min-width: 1024px; max-width: 1200px; margin: 0 auto;}
+
+
+
+ body {
+  padding-top: 0px; 
+}
+
+
+
+#wrapperHead {
+    background-color: $primaryColor;
+    height: 102px;  
+}
+
+
+header {
+  margin-top: 0px; 
+
+h1 {
+  color: $fontColor; 
+}
+
+h2 {
+  color: $fontColor; 
+}
+
+}
+
+
+#wrapperNav {
+    background-color: $secondaryColor; 
+    height: 50px; 
+   
+}
+
+/* ------------------------NAV----------------------------- */
+
+
+    nav button.primaryBtn {display: none;}
+    
+    nav { 
+    position: relative; 
+   // margin-top: 102px; 
+     
+   // background-color: $secondaryColor; 
+    
+    ul.hide {display: block;}
+    
+    ul {
+     
+    
+    li { 
+      float: left; 
+    
+      a {
+        display: block; 
+        border: none; 
+        color: $fontColor; 
+        border-right: 1px solid $fontColor; 
+        padding: .8rem 1rem; 
+      }
+    
+      
+      a:link, a:visited {
+        color: $fontColor; 
+        text-decoration: none; 
+      }
+    
+    
+    a:hover {
+      background-color: $primaryColor;
+      color: $fontColor;  
+    }
+    
+    .active a {background-color: $secondaryColor; color: $primaryColor; }
+    
+      }
+    
+    
+    
+    
+    
+    } 
+    
+    
+    
+    
+    
+    
+    ul li ul.parent {display: none;}
+    
+    ul li ul li {
+       float: none; 
+      display: block; 
+    
+    
+     a {
+     
+      display: block; 
+      border: none; 
+      margin: 0;  
+      
+    }
+    
+    }
+    
+    
+    
+    div#search {
+     margin-top: 5px; 
+      float: right; 
+      font-size: 1rem; 
+      
+      input {
+        border-radius: 10px 0px 0px 10px; 
+        border: none; 
+        margin-right: 0px; 
+        padding: 6.6px 6px 5px 6px; 
+      }
+      
+      button {
+        border-radius: 0px 10px 10px 0px;
+        border: none;   
+        margin-left: -10px;
+        font-size: 1rem; 
+        padding: 4.7px;  
+        color: $primaryColor; 
+        border-color: white; 
+        
+      }
+    
+    }
+    
+    
+    }
+    
+    
+
+
+
+
+
+main {
+ 
+
+    .container-cards {
+    margin: 0 auto; 
+    
+     .cards {
+    
+      flex-basis: 20%; 
+     }
+    
+    }
+    
+    /* ------------------------Column-----------------------------*/ 
+    
+    .row { 
+        max-width: 1200px; 
+        
+      
+      }
+      
+      .column{
+        -webkit-column-gap: normal; /* Chrome, Safari, Opera */
+        -moz-column-gap: normal; /* Firefox */
+        
+       
+      }
+      
+      @for $i from 1 through 12 {
+          $w: ($i / 12) * 100%;
+          .lg-#{$i} {width: $w; float: left;}
+          
+       }    
+    
+        
+        
+        
+    
+        
+        
+    
+    }
+
+
+
+
+    
+/*-------------------- FOOTER ------------------------------ */
+
+
+
+@media only screen and (min-width: 1201px) {
+
+
+
+  footer {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto; 
+  color: $fontColor;  
+  padding: 20px; 
+ 
+  
+  h1 {
+    font-size: 24px; 
+    line-height: 30px; 
+  }
+
+  h2 {
+    padding: 10px 0px; 
+  }
+
+  p {
+    padding: 10px 0px; 
+  }
+
+ 
+ .footerInfo-1 {
+   grid-column: 1;
+   grid-row: 1; 
+   padding: 10px 0px;  
+   text-align: center; 
+ 
+
+
+h2 a:link, a:visited {
+  color: $fontColor; 
+  text-decoration: none; 
+}
+ }
+
+ 
+ .footerInfo-2 {
+  grid-column: 2; 
+  grid-row: 1; 
+  padding: 10px 50px;  
+  text-align: center;
+  margin-left: -80px;  
+}
+
+
+.footerInfo-3 {
+  grid-column: 3; 
+  grid-row: 1; 
+  padding: 10px 0px;  
+  text-align: center;  
+}
+
+
+}
+
+  input {
+    border-radius: 10px 0px 0px 10px; 
+    border: none; 
+    margin-right: 0px; 
+    padding: 12px 9px 10px 10px; 
+  }
+  
+  button {
+    border-radius: 0px 10px 10px 0px;
+    border: none;   
+    margin-left: -10px;
+    font-size: 1rem; 
+    padding: 10px;  
+    color: $primaryColor; 
+    border-color: white; 
+    
+  }
+
+  button a:link, a:visited {
+    color: $primaryColor; 
+  }
+
+
+}
+
+
+
+
+    

@@ -12,13 +12,13 @@ header {
 
     div.phone { 
     font-size: 16px; 
-    color: $secondaryColor; 
+    color: $fontColor; 
     align-self: end;
     margin-bottom: 10px;   
     
     
     a:link, a:visited {
-      color: $secondaryColor; 
+      color: $fontColor; 
       text-decoration: none; 
     }
     
@@ -46,6 +46,88 @@ header {
       
        
        }
+
+
+
+       .container-cruise-cards {
+     //   display: block; 
+     margin-bottom: 100px; 
+      
+
+
+
+        .cruise-card {
+      display: block; 
+       width: 100%; 
+      clear: both; 
+    //  margin-bottom: 50px; 
+        
+          .cruiseImage {
+         float: left; 
+         width: 33%;
+         margin-bottom: 50px;  
+        
+        img {
+          width: 100%; 
+        }
+        
+        }
+        
+        
+        button {
+        float: right; 
+        width: 25%; 
+ 
+  }
+        
+        
+        }
+        
+        
+        }
+
+
+
+  .agent-info {
+
+.agent-card {
+
+
+.agentImage {
+width: 48%; 
+float: right; 
+
+
+img {
+  width: 100%; 
+
+
+
+}
+
+
+
+
+}
+
+
+
+.agentImage-Bourne {
+  float: right; 
+   width: 32%; 
+ }
+ 
+ img {
+   width: 100%; 
+ }
+
+
+
+}
+
+
+
+  }
 
 
 

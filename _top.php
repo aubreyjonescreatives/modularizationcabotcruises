@@ -40,14 +40,16 @@
     <button class="primaryBtn" onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
     <li class="active"><a href="index.php">HOME</a></li>
-    <li><a href="#">CRUISES</a></li>
+    <li><a href="cruises.php">CRUISES</a></li>
     <li onclick="toggleMenu2()"><a href="#">AGENTS</a>
     <ul id="secondaryNav" class="parent">
       <li><a href="#">TOP AGENTS</a></li>
+      <li><a href="agentcoulson.php">AGENT COULSON</a></li>
+      <li><a href="agentbourne.php">AGENT BOURNE</a></li>
       <li><a href="#">ADDITIONAL INFO</a></li>
     </ul>
     </li>
-    <li><a href="#">BOOK</a></li>
+    <li><a href="book.php">BOOK</a></li>
     </ul>
     <div id="search" class="search-container">
       <form method="get" action="/action_page.php">

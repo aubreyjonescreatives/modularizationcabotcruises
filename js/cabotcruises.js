@@ -29,6 +29,14 @@ function toggleMenu2() {
 
 
 
+function toggleMenu3() {
+  document.getElementById("secondaryNav").classList.toggle; 
+  document.getElementById("secondaryNav").classList.toggle('parent');
+}
+
+
+
+
 $(document).ready(function(){
   $('.my-class').slick({
    slidesToShow: 1, 

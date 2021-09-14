@@ -139,7 +139,7 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #FFD700;
+  background-color: #EEBC1D;
   overflow: hidden;
   width: 100%;
   padding-bottom: 5px;
@@ -153,7 +153,7 @@ nav {
       padding: .8rem 2%;
       text-decoration: none;
       color: #ffffff;
-      border-top: 1px solid #FFD700; }
+      border-top: 1px solid #EEBC1D; }
     nav ul li a:link, nav ul li a:visited {
       color: #ffffff;
       text-decoration: none; }
@@ -244,6 +244,57 @@ main {
         display: block; }
     main .container-cards .card:hover {
       opacity: 1; }
+  main .cruises-header {
+    font-size: 36px;
+    margin: 50px 20px; }
+  main .container-cruise-cards {
+    margin-bottom: 100px; }
+    main .container-cruise-cards .cruise-card {
+      clear: both;
+      display: block;
+      margin: auto;
+      margin-bottom: 50px; }
+      main .container-cruise-cards .cruise-card .cruiseImage {
+        width: 100%; }
+        main .container-cruise-cards .cruise-card .cruiseImage img {
+          width: 100%; }
+      main .container-cruise-cards .cruise-card .title {
+        text-align: center;
+        margin: 10px;
+        font-size: 24px; }
+      main .container-cruise-cards .cruise-card .description {
+        font-size: 20px;
+        text-align: center;
+        margin: 10px; }
+      main .container-cruise-cards .cruise-card button {
+        display: block;
+        margin: 20px auto;
+        width: 100%; }
+  main .agent-name {
+    font-size: 36px;
+    margin: 50px 20px; }
+  main .agent-info {
+    margin: 50px auto; }
+    main .agent-info .agent-card {
+      clear: both;
+      display: block;
+      margin: auto;
+      margin-bottom: 50px; }
+      main .agent-info .agent-card .agentImage {
+        width: 100%; }
+        main .agent-info .agent-card .agentImage img {
+          width: 100%; }
+      main .agent-info .agent-card .agentImage-Bourne {
+        width: 100%; }
+      main .agent-info .agent-card img {
+        width: 100%; }
+      main .agent-info .agent-card .info-header {
+        padding: 20px;
+        font-size: 32px; }
+      main .agent-info .agent-card .info-detail {
+        padding: 20px;
+        font-size: 24px;
+        line-height: 36px; }
   main .row {
     max-width: 650px; }
   main .column {
@@ -290,12 +341,14 @@ main {
 
 /* ------------------------FOOTER----------------------------- */
 div#footerWrapper {
+  clear: both;
   margin-top: 100px;
   background-color: #000080;
   padding-bottom: 20px; }
 
 @media only screen and (max-width: 650px) {
   footer {
+    clear: both;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -343,7 +396,7 @@ div#footerWrapper {
   button a:link, a:visited {
     color: #000080; } }
 div#copyrightWrapper {
-  background-color: #FFD700;
+  background-color: #EEBC1D;
   height: 100px;
   width: 100%;
   text-align: center;
@@ -364,14 +417,14 @@ div#copyrightWrapper {
       text-decoration: none; }
 
 div#socialWrapper {
-  background-color: #FFD700;
+  background-color: #EEBC1D;
   padding-bottom: 20px; }
 
 .footerSocialIcons {
   text-align: center;
   color: #ffffff;
   font-size: 28px;
-  background-color: #FFD700;
+  background-color: #EEBC1D;
   width: 100%;
   padding: 10px 0px; }
   .footerSocialIcons a:link, .footerSocialIcons a:visited {
@@ -399,17 +452,42 @@ div#socialWrapper {
     margin-top: 22px; }
     header div.phone {
       font-size: 16px;
-      color: #FFD700;
+      color: #ffffff;
       align-self: end;
       margin-bottom: 10px; }
       header div.phone a:link, header div.phone a:visited {
-        color: #FFD700;
+        color: #ffffff;
         text-decoration: none; }
 
   main {
     /* ------------------------Column----------------------------- */ }
     main .container-cards .cards {
       flex-basis: 31%; }
+    main .container-cruise-cards {
+      margin-bottom: 100px; }
+      main .container-cruise-cards .cruise-card {
+        display: block;
+        width: 100%;
+        clear: both; }
+        main .container-cruise-cards .cruise-card .cruiseImage {
+          float: left;
+          width: 33%;
+          margin-bottom: 50px; }
+          main .container-cruise-cards .cruise-card .cruiseImage img {
+            width: 100%; }
+        main .container-cruise-cards .cruise-card button {
+          float: right;
+          width: 25%; }
+    main .agent-info .agent-card .agentImage {
+      width: 48%;
+      float: right; }
+      main .agent-info .agent-card .agentImage img {
+        width: 100%; }
+    main .agent-info .agent-card .agentImage-Bourne {
+      float: right;
+      width: 32%; }
+    main .agent-info .agent-card img {
+      width: 100%; }
     main .row {
       max-width: 1024px; }
     main .column {
@@ -527,7 +605,7 @@ div#socialWrapper {
       color: #ffffff; }
 
   #wrapperNav {
-    background-color: #FFD700;
+    background-color: #EEBC1D;
     height: 50px; }
 
   /* ------------------------NAV----------------------------- */
@@ -553,7 +631,7 @@ div#socialWrapper {
         background-color: #000080;
         color: #ffffff; }
       nav ul li .active a {
-        background-color: #FFD700;
+        background-color: #EEBC1D;
         color: #000080; }
     nav ul li ul.parent {
       display: none; }

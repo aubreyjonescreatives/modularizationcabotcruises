@@ -243,7 +243,6 @@ main {
 
 
 
-
   
 .container-cards {
   display: flex; 
@@ -306,6 +305,138 @@ img {
 
 
 
+  .cruises-header {
+    font-size: 36px; 
+    margin: 50px 20px; 
+  }
+
+
+
+
+.container-cruise-cards {
+margin-bottom: 100px; 
+
+
+
+.cruise-card {
+clear: both; 
+display: block; 
+margin: auto; 
+margin-bottom: 50px; 
+
+
+.cruiseImage {
+  width: 100%; 
+//  margin-bottom: 50px; 
+
+img {
+  width: 100%; 
+//  margin-bottom: 50px; 
+}
+
+}
+
+.title {
+  text-align: center; 
+  margin: 10px;  
+  font-size: 24px; 
+}
+
+
+.description {
+font-size: 20px; 
+text-align: center; 
+margin: 10px; 
+ 
+}
+
+
+button {
+display: block; 
+margin: 20px auto; 
+width: 100%; 
+}
+
+}
+
+
+}
+
+
+
+
+.agent-name {
+
+  font-size: 36px; 
+  margin: 50px 20px; 
+}
+
+
+.agent-info {
+margin: 50px auto; 
+
+.agent-card {
+  clear: both; 
+display: block; 
+margin: auto; 
+margin-bottom: 50px; 
+
+
+.agentImage {
+width: 100%; 
+
+
+
+
+img {
+width: 100%; 
+
+
+}
+
+
+
+}
+
+
+.agentImage-Bourne {
+  width: 100%; 
+}
+
+img {
+  width: 100%; 
+}
+
+
+
+.info-header {
+
+  padding: 20px; 
+  font-size: 32px; 
+
+}
+
+.info-detail {
+
+padding: 20px; 
+font-size: 24px;
+line-height: 36px;  
+
+}
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
 
 
 
@@ -352,6 +483,7 @@ img {
 /* ------------------------FOOTER----------------------------- */
 
 div#footerWrapper {
+  clear: both; 
   margin-top: 100px; 
    background-color: $primaryColor;
    padding-bottom: 20px; 
@@ -365,6 +497,7 @@ div#footerWrapper {
 
 
  footer {
+   clear: both; 
    display: grid; 
    grid-template-columns: 1fr; 
    grid-template-rows: auto; 
